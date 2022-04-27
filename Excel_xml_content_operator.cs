@@ -103,7 +103,6 @@ public static class Excel_xml_content_operator
             }
             else
             {
-                ZipArchiveEntry dst_entry = dst_archive.CreateEntry(src_entry.FullName, New_entry_compression_level);
                 Copy_content_from_entry_to_entry(src_entry, dst_entry);
             }
         }
